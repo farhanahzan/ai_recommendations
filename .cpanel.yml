@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/officest/repositories/ai_recommendations/
+    - /bin/cp -R * $DEPLOYPATH
